@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FastPolice</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="theme">主题</string>
+    <string name="cancel">取消</string>
+    <string name="done">完成</string>
+    <string name="about_me">\n博 客：<a href="http://whuhan2013.github.io/">良有以也</a>\n\nGithub：<a href="https://github.com/whuhan2013">whuhan2013</a></string>
+    <string name="all">全部</string>
+    <string name="close">关闭</string>
+    <string name="setting">设置</string>
+    <string name="fuli">福利</string>
+    <string name="android">Android</string>
+    <string name="ios">iOS</string>
+    <string name="video">休息视频</string>
+    <string name="front">前端</string>
+    <string name="resource">拓展资源</string>
+    <string name="app">App</string>
+    <string name="about">关于我</string>
+    <string name="more">瞎推荐</string>
+
+
+    <!-- 驾车路线策略 -->
+    <string-array name="driving_spinner">
+        <item>躲避拥堵</item>
+        <item>最短距离</item>
+        <item>较少费用</item>
+        <item>时间优先</item>
+    </string-array>
+
+    <!-- 换乘策略 -->
+    <string-array name="transit_spinner">
+        <item>不含地铁</item>
+        <item>时间优先</item>
+        <item>最少换乘</item>
+        <item>最少步行距离</item>
+    </string-array>
+</resources>

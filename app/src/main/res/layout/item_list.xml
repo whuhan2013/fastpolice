@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="20dp">
+    <com.zj.custom.WhiteCouponView
+        android:id="@+id/wc_backgroud_view"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7a7a7a"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="10dp">
+        <ImageView
+            android:layout_gravity="center"
+
+            android:id="@+id/iv_left_image"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+
+            android:scaleType="centerCrop"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp">
+            <TextView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/ll_case_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="卷  宗"
+                />
+            <TextView
+                android:id="@+id/ll_case_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="2dp"
+                android:text="编号:11223124123213131"
+                />
+            <TextView
+                android:id="@+id/ll_case_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="2dp"
+                android:text="编号:11223124123213131"
+                />
+            <TextView
+                android:id="@+id/ll_case_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="2dp"
+                android:text="截止日期:2001-09-07"
+                />
+        </LinearLayout>
+    </com.zj.custom.WhiteCouponView>
+
+</FrameLayout>

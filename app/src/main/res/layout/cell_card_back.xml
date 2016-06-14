@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/main_fl_card_back"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:padding="16dp"
+        android:src="@drawable/rectangle_back"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/tv_tittle"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:text="简 介"
+            android:textColor="@android:color/white"/>
+        <LinearLayout
+            android:id="@+id/ll_name"
+            android:layout_below="@id/tv_tittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="18dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="姓 名:"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                />
+            <TextView
+                android:textSize="15sp"
+                android:id="@+id/card_back_name"
+                android:textColor="@android:color/white"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="高 颖"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_sex"
+            android:layout_below="@id/ll_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="18dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="性 别:"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                />
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="女"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_address"
+            android:layout_below="@id/ll_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="18dp"
+            android:layout_marginRight="20dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="单 位:"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                />
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:text="鹿城公安分局刑侦大队法医"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_intorduce"
+            android:layout_below="@id/ll_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="18dp"
+            android:layout_marginRight="20dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="介 绍:"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                />
+            <TextView
+                android:singleLine="false"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:text="一本《鉴证实录》让学医的高颖立志成为法医，在中国刑事警察学院拿到了法医学士学位，跨入警界，从事尸检和伤势鉴定.工作十多年里，她受理法医物证检验案件3000余起，法医临床检验6000余份,勘查现场400余起.业余喜欢看美剧,喝茶,看看书,晒晒太阳。她说：“优秀的女人是认真的，用心经营工作和生活.”  "/>
+        </LinearLayout>
+
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="25dp"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:layout_below="@id/ll_address"-->
+            <!--android:text="一本《鉴证实录》让学医的高颖立志成为法医，在中国刑事警察学院拿到了法医学士学位，跨入警界，从事尸检和伤势鉴定.工作十多年里，她受理法医物证检验案件3000余起，法医临床检验6000余份,勘查现场400余起.业余喜欢看美剧,喝茶,看看书,晒晒太阳。她说：“优秀的女人是认真的，用心经营工作和生活。”"/>-->
+   <!-- -->
+    </RelativeLayout>
+
+
+
+</FrameLayout>

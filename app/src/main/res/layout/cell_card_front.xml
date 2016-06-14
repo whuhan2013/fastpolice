@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/main_fl_card_front"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhy="http://schemas.android.com/apk/res/me.chunyu.spike.wcl_flip_anim_demo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:padding="16dp"
+        android:src="@drawable/rectangle_front"/>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_gravity="center"
+         android:gravity="center_horizontal"
+
+         android:orientation="vertical"
+         >
+
+
+         <com.zj.custom.RoundImageView
+
+             android:id="@+id/my_image"
+             android:layout_margin="50dp"
+             android:layout_width="200dp"
+             android:layout_height="200dp"
+             android:src="@mipmap/police1"
+
+             ></com.zj.custom.RoundImageView>
+
+
+
+         <TextView
+             android:id="@+id/card_tv_center"
+
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+
+             android:gravity="center"
+             android:text="高颖"
+             android:textColor="@android:color/white"
+             android:textSize="40sp"
+             />
+
+
+     </LinearLayout>
+
+
+
+</FrameLayout>
